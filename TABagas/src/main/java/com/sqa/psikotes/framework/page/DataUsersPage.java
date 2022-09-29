@@ -1,6 +1,5 @@
 package com.sqa.psikotes.framework.page;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,9 +22,17 @@ public class DataUsersPage extends LoginPage{
 	@FindBy(xpath = "//button[@id='52827_query']/span")
 	private WebElement btnDataUsers;
 	
+	@FindBy(xpath = "//span[normalize-space()='Search']")
+	private WebElement btnSearch;
+	
+	@FindBy(xpath = "//input[@id='tl_data_users--53078_text']")
+	private WebElement insSearch;
+	
+//	Validation
 	@FindBy(xpath = "//input[@id='tl_data_users--53079_text']")
 	private WebElement txtDataUsers;
 	
+//	Open Data Users Page
 	public void clickTask() {
 		btnTask.click();
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
@@ -39,4 +46,7 @@ public class DataUsersPage extends LoginPage{
 	public String getTxtDataUsers() {
 		return txtDataUsers.getAttribute("value");
 	}
+	
+//	Search by name with search button
+	
 }

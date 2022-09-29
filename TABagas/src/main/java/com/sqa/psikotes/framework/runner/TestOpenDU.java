@@ -8,9 +8,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.sqa.psikotes.framework.constant.Constants;
 import com.sqa.psikotes.framework.page.DataUsersPage;
-import com.sqa.psikotes.framework.page.LoginPage;
 
-import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

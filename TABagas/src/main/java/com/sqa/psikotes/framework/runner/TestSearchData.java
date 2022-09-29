@@ -1,14 +1,9 @@
 package com.sqa.psikotes.framework.runner;
 
-import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.WebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
-import com.sqa.psikotes.framework.constant.Constants;
 import com.sqa.psikotes.framework.page.DataUsersPage;
-import com.sqa.psikotes.framework.page.LoginPage;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
