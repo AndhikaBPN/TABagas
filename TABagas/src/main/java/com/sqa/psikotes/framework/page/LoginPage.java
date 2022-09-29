@@ -11,8 +11,6 @@ import com.sqa.psikotes.framework.constant.Constants;
 import com.sqa.psikotes.framework.utils.Utils;
 	
 public class LoginPage {
-
-		
 		private WebDriver driver;
 		public LoginPage() {
 			this.driver = DriverSingleton.getDriver();
@@ -42,12 +40,6 @@ public class LoginPage {
 	private WebElement btnOk;
 	
 	
-	public void loginValidOne(String username, String password) {
-		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
-		this.txtUsername.sendKeys(username);
-		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
-		this.txtPassword.sendKeys(password);
-	}
 	
 	public void loginValidTwo(String username, String password) throws InterruptedException {
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
@@ -60,19 +52,10 @@ public class LoginPage {
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 		btnOk.click();
 		Thread.sleep(2000);
-		
 	}
 	
-	public void clickBtnSignIn() {
-		btnSignIn.click();
-	}
-	
-	public void clickButtonOk() {
-		btnOk.click();
-	}
-	
-	public void clickEnter() {
-		this.txtUsername.sendKeys(Keys.ENTER);
+	public String getTxtWelcome() {
+		return txtWelcome.getText();
 	}
 }
 

@@ -1,12 +1,13 @@
 #Author: Bagas
 #Created_date: 29/9/2022
 #Modified_date: 
-Feature: Admin login valid ke web
+Feature: TSDU001 Membuka halaman Data Users
 	Background:
-	    Given Admin go to main page
+	    Given Admin harus membuka halaman utama web
 
 	@tag1
-  Scenario: Admin login valid click button signin
-    When TSLP001001 admin enter username and password valid
-    Then TSLP001001 The system check credentsial login valid
+  Scenario: TSDU001001 Admin ingin membuka halaman data Admin
+    When TSDU001001 Admin klik menu Task
+    And TSDU001001 Admin klik submenu Data Users
+    Then TSDU001001 Tampil halaman Data Users
  
