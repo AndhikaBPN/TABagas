@@ -48,5 +48,7 @@ public class DataUsersPage extends LoginPage{
 	}
 	
 //	Search by name with search button
-	
+	public void clickInsSearch() {
+		insSearch.click();
+	}
 }

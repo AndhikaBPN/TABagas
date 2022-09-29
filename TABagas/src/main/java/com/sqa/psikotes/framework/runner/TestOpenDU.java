@@ -25,7 +25,7 @@ public class TestOpenDU {
 	}
 	
 	@Given("Admin harus membuka halaman utama web")
-	public void admin_go_to_page_login() throws InterruptedException {
+	public void admin_go_to_page_login() {
 		driver.get(Constants.URL);
 		String username = "developer";
 		String password = "23";

@@ -40,17 +40,16 @@ public class LoginPage {
 	
 	
 	
-	public void loginValidTwo(String username, String password) throws InterruptedException {
+	public void loginValidTwo(String username, String password) {
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 		this.txtUsername.sendKeys(username);
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 		this.txtPassword.sendKeys(password);
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 		btnSignIn.click();
-		Thread.sleep(2000);
-		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
 		btnOk.click();
-		Thread.sleep(2000);
+		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public String getTxtWelcome() {
