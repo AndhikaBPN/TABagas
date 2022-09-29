@@ -4,7 +4,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-features = {"src/main/resources/features/007DUOpenDUValid.feature"},
+features = {"src/main/resources/features/406DUOpenDUValid.feature", 
+			"src/main/resources/features/409DUSearchDataValid.feature"},
 glue = "com.sqa.psikotes.framework.runner",
 monochrome=true,
 plugin = {"pretty","html:target/psikotes/htmlreport/PSIKOTESRunner.html",
