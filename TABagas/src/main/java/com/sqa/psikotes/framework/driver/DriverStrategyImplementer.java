@@ -1,6 +1,6 @@
-package cucumber.framework.driver;
+package com.sqa.psikotes.framework.driver;
 
-import cucumber.framework.constant.Constants;
+import com.sqa.psikotes.framework.constant.Constants;
 
 public class DriverStrategyImplementer {
 

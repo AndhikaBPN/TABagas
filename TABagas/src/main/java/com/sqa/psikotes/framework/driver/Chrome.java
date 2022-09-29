@@ -1,4 +1,4 @@
-package cucumber.framework.driver;
+package com.sqa.psikotes.framework.driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

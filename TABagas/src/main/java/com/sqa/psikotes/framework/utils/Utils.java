@@ -1,4 +1,4 @@
-package cucumber.framework.utils;
+package com.sqa.psikotes.framework.utils;
 
 import java.io.File;
 import java.io.IOException;

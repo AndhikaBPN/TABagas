@@ -1,12 +1,12 @@
-package cucumber.framework.connection;
+package com.sqa.psikotes.framework.connection;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 
-import cucumber.framework.constant.Constants;
-import cucumber.framework.driver.DriverStrategy;
-import cucumber.framework.driver.DriverStrategyImplementer;
+import com.sqa.psikotes.framework.constant.Constants;
+import com.sqa.psikotes.framework.driver.DriverStrategy;
+import com.sqa.psikotes.framework.driver.DriverStrategyImplementer;
 
 public class DriverSingleton {
 
