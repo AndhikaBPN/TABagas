@@ -63,20 +63,20 @@ public class TestSearchData {
 //		dataUsers.clickInsSearch();
 //	}
 
-	@When("TSDU002002N Admin mengisi field dengan name yang ingin dicari")
+	@When("TSDU002002 Admin mengisi field dengan name yang ingin dicari")
 	public void tsdu002002n_admin_mengisi_field_dengan_name_yang_ingin_dicari() {
 		String name = "yuhu";
 	    dataUsers.insertSearch(name);
 	    extentTest.log(LogStatus.PASS, "Admin mengisi field dengan nama yang ingin dicari");
 	}
 
-	@When("TSDU002002N Admin klik tombol berwarna hijau")
+	@When("TSDU002002 Admin klik tombol berwarna hijau")
 	public void tsdu002002n_admin_klik_tombol_berwarna_hijau() {
 	    dataUsers.clickGreen();
 	    extentTest.log(LogStatus.PASS, "Admin klik tombol berwarna hijau");
 	}
 
-	@Then("TSDU002002N Tampil nama yang dicari")
+	@Then("TSDU002002 Tampil nama yang dicari")
 	public void tsdu002002n_tampil_nama_yang_dicari() {
 		assertTrue(dataUsers.getTxtNameUser().contains("yuhu"));
 	    extentTest.log(LogStatus.PASS, "Tampil nama yang dicari");
@@ -123,20 +123,20 @@ public class TestSearchData {
 	}
 	
 //	search email with green icon
-	@When("TSDU002005N Admin mengisi field dengan email yang ingin dicari")
+	@When("TSDU002005 Admin mengisi field dengan email yang ingin dicari")
 	public void tsdu002005n_admin_mengisi_field_dengan_email_yang_ingin_dicari() {
 		String email = "yuh@gmail.com";
 	    dataUsers.insertSearch(email);
 	    extentTest.log(LogStatus.PASS, "Admin mengisi field dengan email yang ingin dicari");
 	}
 
-	@When("TSDU002005N Admin klik tombol berwarna hijau")
+	@When("TSDU002005 Admin klik tombol berwarna hijau")
 	public void tsdu002005n_admin_klik_tombol_berwarna_hijau() {
 		dataUsers.clickGreen();
 	    extentTest.log(LogStatus.PASS, "Admin klik tombol berwarna hijau");
 	}
 
-	@Then("TSDU002005N Tampil email yang dicari")
+	@Then("TSDU002005 Tampil email yang dicari")
 	public void tsdu002005n_tampil_email_yang_dicari() {
 		assertTrue(dataUsers.getTxtEmailUser().contains("yuh@gmail.com"));
 	    extentTest.log(LogStatus.PASS, "Tampil email yang dicari");
@@ -165,8 +165,8 @@ public class TestSearchData {
 //	search status with search button
 	@When("TSDU002007 Admin mengisi field dengan status yang ingin dicari")
 	public void tsdu002007_admin_mengisi_field_dengan_status_yang_ingin_dicari() {
-		String email = "non";
-	    dataUsers.insertSearch(email);
+		String status = "non";
+	    dataUsers.insertSearch(status);
 	    extentTest.log(LogStatus.PASS, "Admin mengisi field dengan status yang ingin dicari");
 	}
 
@@ -179,6 +179,46 @@ public class TestSearchData {
 	@Then("TSDU002007 Tampil email yang dicari")
 	public void tsdu002007_tampil_email_yang_dicari() {
 	    assertTrue(dataUsers.getTxtStatusUser().contains("NON"));
+	    extentTest.log(LogStatus.PASS, "Tampil email yang dicari");
+	}
+	
+//	search status with green icon
+	@When("TSDU002008 Admin mengisi field dengan status yang ingin dicari")
+	public void tsdu002008n_admin_mengisi_field_dengan_status_yang_ingin_dicari() {
+		String status = "active";
+	    dataUsers.insertSearch(status);
+	    extentTest.log(LogStatus.PASS, "Admin mengisi field dengan status yang ingin dicari");
+	}
+
+	@When("TSDU002008 Admin klik tombol berwarna hijau")
+	public void tsdu002008n_admin_klik_tombol_berwarna_hijau() {
+		dataUsers.clickGreen();
+	    extentTest.log(LogStatus.PASS, "Admin klik tombol berwarna hijau");
+	}
+
+	@Then("TSDU002008 Tampil email yang dicari")
+	public void tsdu002008n_tampil_email_yang_dicari() {
+		assertTrue(dataUsers.getTxtStatusUser().contains("ACTIVE"));
+	    extentTest.log(LogStatus.PASS, "Tampil email yang dicari");
+	}
+	
+//	search status with enter
+	@When("TSDU002009 Admin mengisi field dengan status yang ingin dicari")
+	public void tsdu002009_admin_mengisi_field_dengan_status_yang_ingin_dicari() {
+		String status = "non active";
+	    dataUsers.insertSearch(status);
+	    extentTest.log(LogStatus.PASS, "Admin mengisi field dengan status yang ingin dicari");
+	}
+
+	@When("TSDU002009 Admin menekan enter pada keyboard")
+	public void tsdu002009_admin_menekan_enter_pada_keyboard() {
+		dataUsers.clickEnter();
+	    extentTest.log(LogStatus.PASS, "Admin menekan enter pada keyboard");
+	}
+
+	@Then("TSDU002009 Tampil email yang dicari")
+	public void tsdu002009_tampil_email_yang_dicari() {
+		assertTrue(dataUsers.getTxtStatusUser().contains("NON ACTIVE"));
 	    extentTest.log(LogStatus.PASS, "Tampil email yang dicari");
 	}
 }
