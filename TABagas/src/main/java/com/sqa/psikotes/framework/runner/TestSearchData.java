@@ -1,5 +1,9 @@
 package com.sqa.psikotes.framework.runner;
 
+//Author: Bagas
+//Created_date: 9/29/2022
+//Modified_date:
+
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
@@ -54,15 +58,6 @@ public class TestSearchData {
 	}
 	
 //	search name with green icon
-//	@Given("TSDU002002N Admin harus klik field search Data Users pada halaman Data Users")
-//	public void tsdu002002n_admin_harus_klik_field_search_data_users_pada_halaman_data_users() {
-//		driver.get(Constants.URL);
-//		dataUsers.clickOK();
-//		dataUsers.clickTask();
-//		dataUsers.clickDataUsers();
-//		dataUsers.clickInsSearch();
-//	}
-
 	@When("TSDU002002 Admin mengisi field dengan name yang ingin dicari")
 	public void tsdu002002n_admin_mengisi_field_dengan_name_yang_ingin_dicari() {
 		String name = "yuhu";
