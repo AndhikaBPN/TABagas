@@ -17,19 +17,19 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class TestOpenDU {
+public class TestOpenUserValid {
 	
 	private static WebDriver driver;
 	private static ExtentTest extentTest;
 	private DataUsersPage dataUsers = new DataUsersPage ();
 	
-	public TestOpenDU() {
+	public TestOpenUserValid() {
 		driver = SceneHooks.driver;
 		extentTest = SceneHooks.extentTest;
 	}
 	
-	@Given("Admin harus membuka halaman utama web")
-	public void admin_go_to_page_login() {
+	@Given("TSDU001 Admin harus membuka halaman utama web")
+	public void tsdu001_admin_go_to_page_login() {
 		driver.get(Constants.URL);
 		String username = "developer";
 		String password = "23";
