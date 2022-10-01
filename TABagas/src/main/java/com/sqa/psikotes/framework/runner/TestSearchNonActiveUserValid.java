@@ -83,7 +83,7 @@ public class TestSearchNonActiveUserValid {
 	    extentTest.log(LogStatus.PASS, "Admin klik tombol berwarna hijau");
 	}
 
-	@Then("TSDU004002 Tampil hasil filter NON ACTIVE User berdasarkan name dan email (.*)")
+	@Then("^TSDU004002 Tampil hasil filter NON ACTIVE User berdasarkan name dan email (.*)$")
 	public void tsdu004002_tampil_hasil_filter_non_active_user_berdasarkan_name_dan_email_datatwo(String dataTwo) {
 		i++;
 	    if(i==3) {
@@ -113,7 +113,7 @@ public class TestSearchNonActiveUserValid {
 	    extentTest.log(LogStatus.PASS, "Admin menekan enter pada keyboard");
 	}
 
-	@Then("TSDU004003 Tampil hasil filter NON ACTIVE User berdasarkan name dan email (.*)")
+	@Then("^TSDU004003 Tampil hasil filter NON ACTIVE User berdasarkan name dan email (.*)$")
 	public void tsdu004003_tampil_hasil_filter_non_active_user_berdasarkan_name_dan_email_datathree(String dataThree) {
 		i++;
 	    if(i==3) {

@@ -30,6 +30,7 @@ public class SceneHooks {
 	@Before
 	public void setUp() {
 		DriverSingleton.getInstance(Constants.CHROME);
+		driver = DriverSingleton.getDriver();
 		testReport = tests[Utils.testCount].getTestName();
 		extentTest = reports.startTest(testReport);
 		if(Utils.countOutline==DATA_OUTLINE[Utils.testCount]) {
