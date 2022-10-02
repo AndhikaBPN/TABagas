@@ -1,8 +1,8 @@
-package com.sqa.psikotes.framework.runner;
-
 //Author: Bagas
 //Created_date: 9/29/2022
 //Modified_date:
+
+package com.sqa.psikotes.framework.runner;
 
 import static org.testng.Assert.assertTrue;
 

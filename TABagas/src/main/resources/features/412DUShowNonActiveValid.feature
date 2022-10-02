@@ -2,7 +2,7 @@
 #Created_date: 30/9/2022
 #Modified_date: 
 @tag
-Feature: Title of your feature
+Feature: TSDU003 Menampilkan user non active
 	Background:
 		Given TSDU003 Admin harus membuka halaman  data users
 

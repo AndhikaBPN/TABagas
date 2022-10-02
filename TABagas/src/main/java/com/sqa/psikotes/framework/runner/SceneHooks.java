@@ -10,7 +10,6 @@ import com.relevantcodes.extentreports.LogStatus;
 import com.sqa.psikotes.framework.connection.DriverSingleton;
 import com.sqa.psikotes.framework.constant.Constants;
 import com.sqa.psikotes.framework.scenariotest.PSIKOTESScene;
-import com.sqa.psikotes.framework.scenariotest.PSIKOTESSceneOutline;
 import com.sqa.psikotes.framework.utils.Utils;
 
 import io.cucumber.java.After;
@@ -24,7 +23,7 @@ public class SceneHooks {
 	public static ExtentTest extentTest;
 	public static ExtentReports reports = new ExtentReports("target/psikotes/extentreport/psikotes-scene-xr.html");
 	PSIKOTESScene[] tests = PSIKOTESScene.values();
-	private static int[] DATA_OUTLINE = {1,3,3,3,1,2,2,2};
+	private static int[] DATA_OUTLINE = {1,3,3,3,1,2,2,2,1,2,2,2,1,1,1,1,1,1,1,1,1,1};
 	private String testReport = "";
 
 	@Before

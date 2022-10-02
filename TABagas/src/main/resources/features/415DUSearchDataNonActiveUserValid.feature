@@ -3,7 +3,7 @@
 #Modified_date: 
 
 @tag
-Feature: Title of your feature
+Feature: TSDU004 Mencari user non active
   Background:
 		Given TSDU004 Admin harus sudah membuka halaman Data Users NON ACTIVE
 
@@ -12,7 +12,7 @@ Feature: Title of your feature
     When TSDU004001 Admin klik search field
     And TSDU004001 Admin mengisi <dataone> yang ingin dicari
     And TSDU004001 Admin klik tombol search
-    Then TSDU004001 Tampil hasil filter NON ACTIVE User berdasarkan name dan email <dataone>
+    Then TSDU004001 Tampil hasil filter NON ACTIVE User berdasarkan <dataone>
 
     Examples: 
       | dataone  |
@@ -24,7 +24,7 @@ Feature: Title of your feature
     When TSDU004002 Admin klik search field
     And TSDU004002 Admin mengisi <datatwo> yang ingin dicari
     And TSDU004002 Admin klik tombol berwarna hijau
-    Then TSDU004002 Tampil hasil filter NON ACTIVE User berdasarkan name dan email <datatwo>
+    Then TSDU004002 Tampil hasil filter NON ACTIVE User berdasarkan <datatwo>
 
     Examples: 
       | datatwo  |
@@ -36,7 +36,7 @@ Feature: Title of your feature
     When TSDU004003 Admin klik search field
     And TSDU004003 Admin mengisi <datathree> yang ingin dicari
     And TSDU004003 Admin menekan enter pada keyboard
-    Then TSDU004003 Tampil hasil filter NON ACTIVE User berdasarkan name dan email <datathree>
+    Then TSDU004003 Tampil hasil filter NON ACTIVE User berdasarkan <datathree>
 
     Examples: 
       | datathree  |
