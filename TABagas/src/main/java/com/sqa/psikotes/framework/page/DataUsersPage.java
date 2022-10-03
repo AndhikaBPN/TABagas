@@ -66,6 +66,9 @@ public class DataUsersPage extends LoginPage{
 	@FindBy(xpath = "//select[@id='tl_view_user--53301_text']/option[2]")
 	private WebElement selectEditActive;
 	
+	@FindBy(xpath = "//select[@id='tl_view_user--53301_text']/option[3]")
+	private WebElement selectEditNon;
+	
 	@FindBy(id = "ddcl-tl_view_user--53302_select-i0")
 	private WebElement selectStaff;
 	

@@ -12,7 +12,7 @@ features = {
 			"src/main/resources/features/418DUShowActiveValid.feature",
 			"src/main/resources/features/421DUSearchDataActiveUserValid.feature",
 			"src/main/resources/features/424DUViewUserValid.feature",
-			"src/main/resources/features/427DUEditUserValid.feature",
+			"src/main/resources/features/427DUEditNonActiveUserValid.feature",
 			},
 glue = "com.sqa.psikotes.framework.runner",
 monochrome=true,
