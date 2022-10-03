@@ -59,6 +59,7 @@ public class LoginPage {
 	}
 	
 	public void loginValidTwo(String username, String password) {
+		Utils.driverWaitTxt(driver, Constants.TIMEOUT, txtUsername);
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 		this.txtUsername.sendKeys(username);
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);

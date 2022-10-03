@@ -1,13 +1,8 @@
 //Author: Bagas
 //Created_date: 10/2/2022
-//Modified_date:
+//Modified_date: 10/3/2022
 
 package com.sqa.psikotes.framework.runner;
-
-import org.openqa.selenium.WebDriver;
-
-import com.relevantcodes.extentreports.ExtentTest;
-import com.sqa.psikotes.framework.page.DataUsersPage;
 
 import static org.testng.Assert.assertTrue;
 
@@ -226,41 +221,41 @@ public class TestEditNonActiveUserValid {
 	    extentTest.log(LogStatus.PASS, "Admin klik tombol OK");
 	}
 	
+
 //	TSDU008006
 	@When("TSDU008006 Admin klik icon edit")
-	public void tsdu008006_admin_klik_icon_edit() {
+	public void TSDU008006_admin_klik_icon_edit() {
 		dataUsers.clickEdit();
 	    extentTest.log(LogStatus.PASS, "Admin klik icon edit");
 	}
 
 	@When("TSDU008006 Admin klik field kategori")
-	public void tsdu008006_admin_klik_field_kategori() {
+	public void TSDU008006_admin_klik_field_kategori() {
 		dataUsers.clickKategori();
 	    extentTest.log(LogStatus.PASS, "Admin klik field kategori");
 	}
 
-	@When("TSDU008006 Admin centang STAFF dan LEADER")
-	public void tsdu008006_admin_centang_staff_dan_leader() {
+	@When("TSDU008006 Admin hilangkan centang pada kategori STAFF")
+	public void TSDU008006_admin_hilangkan_centang_pada_kategori_staff() {
 		dataUsers.clickStaff();
-		dataUsers.clickLeader();
 	    dataUsers.clickKategori();
 	    extentTest.log(LogStatus.PASS, "Admin centang LEADER");
 	}
 
 	@When("TSDU008006 Admin klik tombol save")
-	public void tsdu008006_admin_klik_tombol_save() {
+	public void TSDU008006_admin_klik_tombol_save() {
 		dataUsers.clickSave();
 	    extentTest.log(LogStatus.PASS, "Admin klik tombol save");
 	}
 
 	@Then("TSDU008006 Muncul pop up data berhasil diubah")
-	public void tsdu008006_muncul_pop_up_data_berhasil_diubah() {
+	public void TSDU008006_muncul_pop_up_data_berhasil_diubah() {
 		assertTrue(dataUsers.getTxtDisimpan().contains("Berhasil Di Update"));
 	    extentTest.log(LogStatus.PASS, "Muncul pop up data berhasil diubah");
 	}
 
 	@Then("TSDU008006 Admin klik tombol OK")
-	public void tsdu008006_admin_klik_tombol_ok() {
+	public void TSDU008006_admin_klik_tombol_ok() {
 		dataUsers.clickOk();
 	    extentTest.log(LogStatus.PASS, "Admin klik tombol OK");
 	}
@@ -278,9 +273,9 @@ public class TestEditNonActiveUserValid {
 	    extentTest.log(LogStatus.PASS, "Admin klik field kategori");
 	}
 
-	@When("TSDU008007 Admin hilangkan centang pada kategori STAFF")
-	public void tsdu008007_admin_hilangkan_centang_pada_kategori_staff() {
-		dataUsers.clickStaff();
+	@When("TSDU008007 Admin hilangkan centang pada kategori LEADER")
+	public void tsdu008007_admin_hilangkan_centang_pada_kategori_leader() {
+		dataUsers.clickLeader();
 	    dataUsers.clickKategori();
 	    extentTest.log(LogStatus.PASS, "Admin centang LEADER");
 	}
@@ -316,8 +311,9 @@ public class TestEditNonActiveUserValid {
 	    extentTest.log(LogStatus.PASS, "Admin klik field kategori");
 	}
 
-	@When("TSDU008008 Admin hilangkan centang pada kategori LEADER")
-	public void tsdu008008_admin_hilangkan_centang_pada_kategori_leader() {
+	@When("TSDU008008 Admin centang STAFF dan LEADER")
+	public void tsdu008008_admin_centang_staff_dan_leader() {
+		dataUsers.clickStaff();
 		dataUsers.clickLeader();
 	    dataUsers.clickKategori();
 	    extentTest.log(LogStatus.PASS, "Admin centang LEADER");
@@ -340,6 +336,7 @@ public class TestEditNonActiveUserValid {
 		dataUsers.clickOk();
 	    extentTest.log(LogStatus.PASS, "Admin klik tombol OK");
 	}
+	
 	
 //	TSDU008009
 	@When("TSDU008009 Admin klik icon edit")
