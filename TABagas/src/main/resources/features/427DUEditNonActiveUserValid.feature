@@ -34,7 +34,7 @@ Feature: TSDU008 Edit user non active
     Then TSDU008003 Data tampil
     
   @tag4
-  Scenario: TSDU008004 Admin edit kategori dengan mencentang kategori STAFF di status Admin NON ACTIVE
+  Scenario: TSDU008004 Admin edit kategori dengan mencentang kategori STAFF di status User NON ACTIVE
     When TSDU008004 Admin klik icon edit
     And TSDU008004 Admin klik field kategori
     And TSDU008004 Admin centang STAFF
@@ -43,7 +43,7 @@ Feature: TSDU008 Edit user non active
     And TSDU008004 Admin klik tombol OK
     
   @tag5
-  Scenario: TSDU008005 Admin edit kategori dengan mencentang kategori LEADER di status Admin NON ACTIVE
+  Scenario: TSDU008005 Admin edit kategori dengan mencentang kategori LEADER di status User NON ACTIVE
     When TSDU008005 Admin klik icon edit
     And TSDU008005 Admin klik field kategori
     And TSDU008005 Admin centang LEADER
@@ -52,7 +52,7 @@ Feature: TSDU008 Edit user non active
     And TSDU008005 Admin klik tombol OK
     
   @tag6
-  Scenario: TSDU008006 Admin edit kategori dengan mencentang kategori LEADER di status Admin NON ACTIVE
+  Scenario: TSDU008006 Admin edit kategori dengan mencentang kategori LEADER di status User NON ACTIVE
     When TSDU008006 Admin klik icon edit
     And TSDU008006 Admin klik field kategori
     And TSDU008006 Admin centang STAFF dan LEADER
@@ -61,7 +61,7 @@ Feature: TSDU008 Edit user non active
     And TSDU008006 Admin klik tombol OK
     
   @tag7
-  Scenario: TSDU008007 Admin edit kategori dengan menghilangkan centang kategori STAFF di status Admin NON ACTIVE
+  Scenario: TSDU008007 Admin edit kategori dengan menghilangkan centang kategori STAFF di status User NON ACTIVE
     When TSDU008007 Admin klik icon edit
     And TSDU008007 Admin klik field kategori
     And TSDU008007 Admin hilangkan centang pada kategori STAFF
@@ -70,7 +70,7 @@ Feature: TSDU008 Edit user non active
     And TSDU008007 Admin klik tombol OK
     
   @tag8
-  Scenario: TSDU008008 Admin edit kategori dengan menghilangkan centang kategori LEADER di status Admin NON ACTIVE
+  Scenario: TSDU008008 Admin edit kategori dengan menghilangkan centang kategori LEADER di status User NON ACTIVE
     When TSDU008008 Admin klik icon edit
     And TSDU008008 Admin klik field kategori
     And TSDU008008 Admin hilangkan centang pada kategori LEADER
@@ -79,7 +79,7 @@ Feature: TSDU008 Edit user non active
     And TSDU008008 Admin klik tombol OK
     
   @tag9
-  Scenario: TSDU008009 Admin edit kategori dengan menghilangkan centang kategori STAFF dan LEADER di status Admin NON ACTIVE
+  Scenario: TSDU008009 Admin edit kategori dengan menghilangkan centang kategori STAFF dan LEADER di status User NON ACTIVE
     When TSDU008009 Admin klik icon edit
     And TSDU008009 Admin klik field kategori
     And TSDU008009 Admin hilangkan centang pada kategori STAFF dan LEADER
