@@ -17,96 +17,98 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class TestShowPage50NonActiveUserValid {
+public class TestDUShowPage50ActiveUserValid {
 	private static WebDriver driver;
 	private static ExtentTest extentTest;
 	private static int i=0;
 	
 	private DataUsersPage dataUsers = new DataUsersPage ();
 	
-	public TestShowPage50NonActiveUserValid() {
+	public TestDUShowPage50ActiveUserValid() {
 		driver = SceneHooks.driver;
 		extentTest = SceneHooks.extentTest;
 	}
 	
-//	TSDU011021
-	@Given("TSDU011021 Admin harus membuka halaman data user")
-	public void tsdu011021_admin_harus_membuka_halaman_data_user() {
-		driver.get(Constants.URL);
+//	TSDU011048
+	@Given("TSDU011048 Admin harus membuka halaman data user")
+	public void tsdu011048_admin_harus_membuka_halaman_data_user() {
+	    driver.get(Constants.URL);
 		dataUsers.clickOk();
 		dataUsers.clickTask();
 		dataUsers.clickDataUsers();
+		dataUsers.clickDrop();
+		dataUsers.clickActive();
 	}
 
-	@When("TSDU011021 Admin klik p50")
-	public void tsdu011021_admin_klik_p50() {
+	@When("TSDU011048 Admin klik p50")
+	public void tsdu011048_admin_klik_p50() {
 		dataUsers.clickFifty();
 	    extentTest.log(LogStatus.PASS, "Admin klik p50");
 	}
 
-	@Then("TSDU011021 Halaman menampilkan maksimal p50 data")
-	public void tsdu011021_halaman_menampilkan_maksimal_p50_data() {
+	@Then("TSDU011048 Halaman menampilkan maksimal p50 data")
+	public void tsdu011048_halaman_menampilkan_maksimal_p50_data() {
 		boolean isExist = true;
 	    assertEquals(dataUsers.getTxtDataFirst(), isExist);
 	    extentTest.log(LogStatus.PASS, "Halaman menampilkan maksimal p50 data");
 	}
 
-//	TSDU011022
-	@Given("TSDU011022 Admin harus sudah membuka halaman Data Users NON ACTIVE dengan show page p50")
-	public void tsdu011022_admin_harus_sudah_membuka_halaman_data_users_non_active_dengan_show_page_p50() {
-		dataUsers.clickFifty();
+//	TSDU011049
+	@Given("TSDU011049 Admin harus sudah membuka halaman Data Users ACTIVE dengan show page p50")
+	public void tsdu011049_admin_harus_sudah_membuka_halaman_data_users_active_dengan_show_page_p50() {
+	    dataUsers.clickFifty();
 	}
 
-	@When("TSDU011022 Admin klik angka h1 di atas tabel sebelah kanan")
-	public void tsdu011022_admin_klik_angka_h1_di_atas_tabel_sebelah_kanan() {
+	@When("TSDU011049 Admin klik angka h1 di atas tabel sebelah kanan")
+	public void tsdu011049_admin_klik_angka_h1_di_atas_tabel_sebelah_kanan() {
 		dataUsers.clickPageOne();
 	    extentTest.log(LogStatus.PASS, "Admin klik angka h1 di atas tabel sebelah kanan");
 	}
 
-	@Then("TSDU011022 Berpindah ke halaman h1")
-	public void tsdu011022_berpindah_ke_halaman_h1() {
+	@Then("TSDU011049 Berpindah ke halaman h1")
+	public void tsdu011049_berpindah_ke_halaman_h1() {
 		boolean isExist = true;
 	    assertEquals(dataUsers.getTxtDataFirst(), isExist);
 	    extentTest.log(LogStatus.PASS, "Berpindah ke halaman h1");
 	}
 
-//	TSDU011023
-	@When("TSDU011023 Admin klik angka h2 di atas tabel sebelah kanan")
-	public void tsdu011023_admin_klik_angka_h2_di_atas_tabel_sebelah_kanan() {
+//	TSDU011050
+	@When("TSDU011050 Admin klik angka h2 di atas tabel sebelah kanan")
+	public void tsdu011050_admin_klik_angka_h2_di_atas_tabel_sebelah_kanan() {
 		dataUsers.clickPageTwo();
 	    extentTest.log(LogStatus.PASS, "Admin klik angka h2 di atas tabel sebelah kanan");
 	}
 
-	@Then("TSDU011023 Berpindah ke halaman h2")
-	public void tsdu011023_berpindah_ke_halaman_h2() {
+	@Then("TSDU011050 Berpindah ke halaman h2")
+	public void tsdu011050_berpindah_ke_halaman_h2() {
 		boolean isExist = true;
 	    assertEquals(dataUsers.getTxtDataFirst(), isExist);
 	    extentTest.log(LogStatus.PASS, "Berpindah ke halaman h2");
 	}
 
-//	TSDU011024
-	@When("TSDU011024 Admin klik icon <<")
-	public void tsdu011024_admin_klik_icon() {
+//	TSDU011051
+	@When("TSDU011051 Admin klik icon <<")
+	public void tsdu011051_admin_klik_icon() {
 		dataUsers.clickPrev();
 	    extentTest.log(LogStatus.PASS, "Admin klik icon <<");
 	}
 
-	@Then("TSDU011024 Berpindah ke halaman awal")
-	public void tsdu011024_berpindah_ke_halaman_awal() {
+	@Then("TSDU011051 Berpindah ke halaman awal")
+	public void tsdu011051_berpindah_ke_halaman_awal() {
 		boolean isExist = true;
 	    assertEquals(dataUsers.getTxtDataFirst(), isExist);
 	    extentTest.log(LogStatus.PASS, "Berpindah ke halaman awal");
 	}
 
-//	TSDU011025
-	@When("TSDU011025 Admin klik icon >>")
-	public void tsdu011025_admin_klik_icon() {
+//	TSDU011052
+	@When("TSDU011052 Admin klik icon >>")
+	public void tsdu011052_admin_klik_icon() {
 		dataUsers.clickLast();
 	    extentTest.log(LogStatus.PASS, "Admin klik icon >>");
 	}
 
-	@Then("TSDU011025 Berpindah ke halaman akhir")
-	public void tsdu011025_berpindah_ke_halaman_akhir() {
+	@Then("TSDU011052 Berpindah ke halaman akhir")
+	public void tsdu011052_berpindah_ke_halaman_akhir() {
 		boolean isExist = true;
 	    assertEquals(dataUsers.getTxtDataFirst(), isExist);
 	    extentTest.log(LogStatus.PASS, "Berpindah ke halaman akhir");

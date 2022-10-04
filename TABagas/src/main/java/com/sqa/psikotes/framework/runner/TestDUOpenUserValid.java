@@ -17,13 +17,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class TestOpenUserValid {
+public class TestDUOpenUserValid {
 	
 	private static WebDriver driver;
 	private static ExtentTest extentTest;
 	private DataUsersPage dataUsers = new DataUsersPage ();
 	
-	public TestOpenUserValid() {
+	public TestDUOpenUserValid() {
 		driver = SceneHooks.driver;
 		extentTest = SceneHooks.extentTest;
 	}

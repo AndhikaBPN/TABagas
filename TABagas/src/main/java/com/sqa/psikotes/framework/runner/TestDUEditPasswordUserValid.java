@@ -17,14 +17,14 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class TestEditPasswordUserValid {
+public class TestDUEditPasswordUserValid {
 	private static WebDriver driver;
 	private static ExtentTest extentTest;
 	private static int i=0;
 	
 	private DataUsersPage dataUsers = new DataUsersPage ();
 	
-	public TestEditPasswordUserValid() {
+	public TestDUEditPasswordUserValid() {
 		driver = SceneHooks.driver;
 		extentTest = SceneHooks.extentTest;
 	}

@@ -122,8 +122,19 @@ public enum PSIKOTESScene {
 //	1,1,1,1,1
 	
 	B086("TSDU011053 Admin klik show page 100"),//1
-	B087("TSDU011054 Admin klik page 1");//1
+	B087("TSDU011054 Admin klik page 1"),//1
 //	1,1
+	
+	B088("TSRA001001 Admin membuka remove activity page"),//1
+//	1
+	
+	B089("TSRA002001 Admin mencari data berdasarkan NIK, Nama, Email, Telpon"),//4
+//	4
+	
+	B090("TSRA003001 Admin klik icon delete"),//1
+	B091("TSRA003002 Admin delete data");//1
+//	1,1
+	
 	
 	private String testName;
 	
