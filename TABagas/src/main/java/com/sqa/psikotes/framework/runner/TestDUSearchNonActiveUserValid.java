@@ -120,7 +120,7 @@ public class TestDUSearchNonActiveUserValid {
 	@Then("^TSDU004003 Tampil hasil filter NON ACTIVE User berdasarkan (.*)$")
 	public void tsdu004003_tampil_hasil_filter_non_active_user_berdasarkan_name_dan_email_datathree(String dataThree) {
 		i++;
-	    if(i==3) {
+	    if(i==5) {
 	    	assertTrue(dataUsers.getTxtNameUser().contains(dataThree));
 	    } else {
 	    	assertTrue(dataUsers.getTxtEmailUser().contains(dataThree));
