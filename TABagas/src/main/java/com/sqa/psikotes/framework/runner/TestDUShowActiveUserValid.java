@@ -28,7 +28,7 @@ public class TestDUShowActiveUserValid {
 		extentTest = SceneHooks.extentTest;
 	}
 	
-	@Given("TSDU005 Admin harus membuka halaman  data users")
+	@Given("TSDU005 Admin harus membuka halaman data users")
 	public void tsdu005_admin_harus_membuka_halaman_data_users() {
 		driver.get(Constants.URL);
 		dataUsers.clickOk();
