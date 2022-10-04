@@ -11,7 +11,7 @@ features = {
 			"src/main/resources/features/415DUSearchDataNonActiveUserValid.feature",
 			"src/main/resources/features/418DUShowActiveValid.feature",
 			"src/main/resources/features/421DUSearchDataActiveUserValid.feature",
-			"src/main/resources/features/424DUViewUserVali	d.feature",
+			"src/main/resources/features/424DUViewUserValid.feature",
 			"src/main/resources/features/427DUEditNonActiveUserValid.feature",
 			"src/main/resources/features/430DUEditActiveUserValid.feature",
 			"src/main/resources/features/433DUEditPasswordUserValid.feature",
@@ -23,9 +23,9 @@ features = {
 			"src/main/resources/features/451DUShowPage25ActiveUserValid.feature",
 			"src/main/resources/features/454DUShowPage50ActiveUserValid.feature",
 			"src/main/resources/features/457DUShowPage100ActiveUserValid.feature",
-			"src/main/resources/features/478RAOpenRAValid.feature",
-			"src/main/resources/features/481RASearchDataValid.feature",
-			"src/main/resources/features/484RADeleteDataValid.feature"
+			"src/main/resources/features/484RAOpenRAValid.feature",
+			"src/main/resources/features/487RASearchDataValid.feature",
+			"src/main/resources/features/490RADeleteDataValid.feature"
 			},
 glue = "com.sqa.psikotes.framework.runner",
 monochrome=true,
