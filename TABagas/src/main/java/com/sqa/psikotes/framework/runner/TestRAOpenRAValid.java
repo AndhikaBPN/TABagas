@@ -34,6 +34,7 @@ public class TestRAOpenRAValid {
 	public void tsra001_admin_sudah_masuk_ke_halaman_utama() {
 	    driver.get(Constants.URL);
 	    removeAct.clickOk();
+	    extentTest.log(LogStatus.PASS, "Admin sudah masuk ke halaman utama");
 	}
 
 	@When("TSRA001001 Admin klik menu Report")

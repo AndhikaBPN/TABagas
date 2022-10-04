@@ -35,6 +35,7 @@ public class TestDUOpenUserValid {
 		String password = "23";
 		System.out.println("admin_enter_valid_username_and_password : "+ username +" pwd : "+password);
 		dataUsers.loginValidTwo(username, password);
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman utama web");
 	}
 
 	@When("TSDU001001 Admin klik menu Task")

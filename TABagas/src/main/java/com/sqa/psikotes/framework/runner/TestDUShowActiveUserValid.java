@@ -34,6 +34,7 @@ public class TestDUShowActiveUserValid {
 		dataUsers.clickOk();
 		dataUsers.clickTask();
 		dataUsers.clickDataUsers();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data Users");
 	}
 
 	@When("TSDU005001 Admin klik tombol untuk dropdown yang ada di sebelah kanan search field")

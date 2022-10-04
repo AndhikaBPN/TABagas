@@ -36,6 +36,7 @@ public class TestDUSearchDataUserValid {
 		dataUsers.clickTask();
 		dataUsers.clickDataUsers();
 		dataUsers.clickInsSearch();
+		extentTest.log(LogStatus.PASS, "Admin harus klik field search Data Users pada halaman Data Users");
 	}
 
 //	search data with button search

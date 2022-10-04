@@ -36,6 +36,7 @@ public class TestDUSearchNonActiveUserValid {
 		dataUsers.clickDataUsers();
 		dataUsers.clickDrop();
 		dataUsers.clickNon();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data Users NON ACTIVE");
 	}
 
 //	search with button

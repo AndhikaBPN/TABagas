@@ -35,6 +35,7 @@ public class TestDUEditNonActiveUserValid {
 		dataUsers.clickDataUsers();
 		dataUsers.clickDrop();
 		dataUsers.clickNon();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data Users dengan status NON ACTIVE");
 	}
 
 //	TSDU008001

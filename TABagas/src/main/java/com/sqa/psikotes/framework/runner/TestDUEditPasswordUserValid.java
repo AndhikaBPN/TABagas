@@ -36,6 +36,7 @@ public class TestDUEditPasswordUserValid {
 		dataUsers.clickOk();
 		dataUsers.clickTask();
 		dataUsers.clickDataUsers();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data Users");
 	}
 
 	@When("TSDU010001 Admin klik icon edit password")
@@ -58,6 +59,7 @@ public class TestDUEditPasswordUserValid {
 		dataUsers.clickDataUsers();
 		dataUsers.clickDrop();
 		dataUsers.clickNon();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data Users NON ACTIVE");
 	}
 
 	@When("TSDU010002 Admin mengisi field password baru")
@@ -95,6 +97,7 @@ public class TestDUEditPasswordUserValid {
 		dataUsers.clickDataUsers();
 		dataUsers.clickDrop();
 		dataUsers.clickActive();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data Users ACTIVE");
 	}
 
 	@When("TSDU010003 Admin mengisi field password baru")

@@ -39,6 +39,7 @@ public class TestDUExportUserValid {
 		dataUsers.clickTask();
 		dataUsers.clickDataUsers();
 		dataUsers.clickDrop();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data Users");
 	}
 
 //	TSDU012001

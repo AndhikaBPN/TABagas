@@ -35,6 +35,7 @@ public class TestDUEditActiveUserValid {
 		dataUsers.clickDataUsers();
 		dataUsers.clickDrop();
 		dataUsers.clickActive();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data Users dengan status ACTIVE");
 	}
 
 //	TSDU009001	

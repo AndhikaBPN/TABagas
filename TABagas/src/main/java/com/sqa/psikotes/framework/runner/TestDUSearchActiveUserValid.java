@@ -36,6 +36,7 @@ public class TestDUSearchActiveUserValid {
 		dataUsers.clickDataUsers();
 		dataUsers.clickDrop();
 		dataUsers.clickActive();
+		extentTest.log(LogStatus.PASS, "Admin harus sudah membuka halaman Data UsersACTIVE");
 	}
 
 //	search with button

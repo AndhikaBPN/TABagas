@@ -36,6 +36,7 @@ public class TestRASearchDataRAValid {
 	    removeAct.clickOk();
 	    removeAct.clickMenuReport();
 	    removeAct.clickRemoveActivity();
+	    extentTest.log(LogStatus.PASS, "Admin sudah masuk ke halaman Remove Activity");
 	}
 
 	@When("^TSRA002001 Admin mengisi (.*) yang ingin dicari ke dalam search field$")

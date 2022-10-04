@@ -34,6 +34,7 @@ public class TestRADeleteDataValid {
 	    removeAct.clickOk();
 	    removeAct.clickMenuReport();
 	    removeAct.clickRemoveActivity();
+	    extentTest.log(LogStatus.PASS, "Admin sudah masuk ke halaman Remove Activity");
 	}
 
 //	TSDU003001
