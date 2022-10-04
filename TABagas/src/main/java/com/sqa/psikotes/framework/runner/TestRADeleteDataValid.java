@@ -20,7 +20,6 @@ import io.cucumber.java.en.When;
 public class TestRADeleteDataValid {
 	private static WebDriver driver;
 	private static ExtentTest extentTest;
-	private static int i=0;
 	
 	private RemoveActivityPage removeAct = new RemoveActivityPage ();
 	

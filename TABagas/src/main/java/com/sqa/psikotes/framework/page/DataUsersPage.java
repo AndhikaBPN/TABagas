@@ -44,6 +44,9 @@ public class DataUsersPage extends LoginPage{
 	@FindBy(xpath = "//img[@id='tl_data_users--53078_finder']")
 	private WebElement btnGreen;
 	
+	@FindBy(xpath = "//button[@id='53086_query']/span")
+	private WebElement btnExport;
+	
 	@FindBy(xpath = "//button[@id='53211_query']/span")
 	private WebElement btnSave;
 	
@@ -195,6 +198,11 @@ public class DataUsersPage extends LoginPage{
 	public void clickActive() {
 		selectActive.click();
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+	}
+	
+	public void clickExport() {
+		btnExport.click();
+		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
 	}
 	
 	public void clickPageOne() {

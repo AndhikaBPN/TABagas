@@ -23,6 +23,7 @@ features = {
 			"src/main/resources/features/451DUShowPage25ActiveUserValid.feature",
 			"src/main/resources/features/454DUShowPage50ActiveUserValid.feature",
 			"src/main/resources/features/457DUShowPage100ActiveUserValid.feature",
+			"src/main/resources/features/460DUExportUserValid.feature",
 			"src/main/resources/features/484RAOpenRAValid.feature",
 			"src/main/resources/features/487RASearchDataValid.feature",
 			"src/main/resources/features/490RADeleteDataValid.feature"

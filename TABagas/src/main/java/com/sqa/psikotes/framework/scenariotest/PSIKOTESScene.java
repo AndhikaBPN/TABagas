@@ -55,75 +55,81 @@ public enum PSIKOTESScene {
 	B033("TSDU010003 Admin edit password active user"),//1
 //	1,1,1
 	
-	B034("TSDU011001 Admin klik show page 10"),//1
-	B035("TSDU011002 Admin klik page 1"),//1
-	B036("TSDU011003 Admin klik page 2"),//1
-	B037("TSDU011004 Admin klik page 3"),//1
-	B038("TSDU011005 Admin klik page 4"),//1
-	B039("TSDU011006 Admin klik page 5"),//1
-	B040("TSDU011007 Admin klik page 6"),//1
-	B041("TSDU011008 Admin klik page 7"),//1
-	B042("TSDU011009 Admin klik page 8"),//1
-	B043("TSDU011010 Admin klik page 9"),//1
-	B044("TSDU011011 Admin klik page 10"),//1
-	B045("TSDU011012 Admin klik icon <<"),//1
-	B046("TSDU011013 Admin klik icon >>"),//1
+	B034("TSDU011001 Admin klik show page 10 NON ACTIVE User"),//1
+	B035("TSDU011002 Admin klik page 1 NON ACTIVE User"),//1
+	B036("TSDU011003 Admin klik page 2 NON ACTIVE User"),//1
+	B037("TSDU011004 Admin klik page 3 NON ACTIVE User"),//1
+	B038("TSDU011005 Admin klik page 4 NON ACTIVE User"),//1
+	B039("TSDU011006 Admin klik page 5 NON ACTIVE User"),//1
+	B040("TSDU011007 Admin klik page 6 NON ACTIVE User"),//1
+	B041("TSDU011008 Admin klik page 7 NON ACTIVE User"),//1
+	B042("TSDU011009 Admin klik page 8 NON ACTIVE User"),//1
+	B043("TSDU011010 Admin klik page 9 NON ACTIVE User"),//1
+	B044("TSDU011011 Admin klik page 10 NON ACTIVE User"),//1
+	B045("TSDU011012 Admin klik icon << NON ACTIVE User"),//1
+	B046("TSDU011013 Admin klik icon >> NON ACTIVE User"),//1
 //	1,1,1,1,1,1,1,1,1,1,1,1,1
 	
-	B047("TSDU011014 Admin klik show page 25"),//1
-	B048("TSDU011015 Admin klik page 1"),//1
-	B049("TSDU011016 Admin klik page 2"),//1
-	B050("TSDU011017 Admin klik page 3"),//1
-	B051("TSDU011018 Admin klik page 4"),//1
-	B052("TSDU011019 Admin klik icon <<"),//1
-	B053("TSDU011020 Admin klik icon >>"),//1
+	B047("TSDU011014 Admin klik show page 25 NON ACTIVE User"),//1
+	B048("TSDU011015 Admin klik page 1 NON ACTIVE User"),//1
+	B049("TSDU011016 Admin klik page 2 NON ACTIVE User"),//1
+	B050("TSDU011017 Admin klik page 3 NON ACTIVE User"),//1
+	B051("TSDU011018 Admin klik page 4 NON ACTIVE User"),//1
+	B052("TSDU011019 Admin klik icon << NON ACTIVE User"),//1
+	B053("TSDU011020 Admin klik icon >> NON ACTIVE User"),//1
 //	1,1,1,1,1,1,1
 	
-	B054("TSDU011021 Admin klik show page 50"),//1
-	B055("TSDU011022 Admin klik page 1"),//1
-	B056("TSDU011023 Admin klik page 2"),//1
-	B057("TSDU011024 Admin klik icon <<"),//1
-	B058("TSDU011025 Admin klik icon >>"),//1
+	B054("TSDU011021 Admin klik show page 50 NON ACTIVE User"),//1
+	B055("TSDU011022 Admin klik page 1 NON ACTIVE User"),//1
+	B056("TSDU011023 Admin klik page 2 NON ACTIVE User"),//1
+	B057("TSDU011024 Admin klik icon << NON ACTIVE User"),//1
+	B058("TSDU011025 Admin klik icon >> NON ACTIVE User"),//1
 //	1,1,1,1,1
 	
-	B059("TSDU011026 Admin klik show page 100"),//1
-	B060("TSDU011027 Admin klik page 1"),//1
+	B059("TSDU011026 Admin klik show page 100 NON ACTIVE User"),//1
+	B060("TSDU011027 Admin klik page 1 NON ACTIVE User"),//1
 //	1,1
 	
-	B061("TSDU011028 Admin klik show page 10"),//1
-	B062("TSDU011029 Admin klik page 1"),//1
-	B063("TSDU011030 Admin klik page 2"),//1
-	B064("TSDU011031 Admin klik page 3"),//1
-	B065("TSDU011032 Admin klik page 4"),//1
-	B066("TSDU011033 Admin klik page 5"),//1
-	B067("TSDU011034 Admin klik page 6"),//1
-	B068("TSDU011035 Admin klik page 7"),//1
-	B069("TSDU011036 Admin klik page 8"),//1
-	B070("TSDU011037 Admin klik page 9"),//1
-	B071("TSDU011038 Admin klik page 10"),//1
-	B072("TSDU011039 Admin klik icon <<"),//1
-	B073("TSDU011040 Admin klik icon >>"),//1
+	B061("TSDU011028 Admin klik show page 10 ACTIVE User"),//1
+	B062("TSDU011029 Admin klik page 1 ACTIVE User"),//1
+	B063("TSDU011030 Admin klik page 2 ACTIVE User"),//1
+	B064("TSDU011031 Admin klik page 3 ACTIVE User"),//1
+	B065("TSDU011032 Admin klik page 4 ACTIVE User"),//1
+	B066("TSDU011033 Admin klik page 5 ACTIVE User"),//1
+	B067("TSDU011034 Admin klik page 6 ACTIVE User"),//1
+	B068("TSDU011035 Admin klik page 7 ACTIVE User"),//1
+	B069("TSDU011036 Admin klik page 8 ACTIVE User"),//1
+	B070("TSDU011037 Admin klik page 9 ACTIVE User"),//1
+	B071("TSDU011038 Admin klik page 10 ACTIVE User"),//1
+	B072("TSDU011039 Admin klik icon << ACTIVE User"),//1
+	B073("TSDU011040 Admin klik icon >> ACTIVE User"),//1
 //	1,1,1,1,1,1,1,1,1,1,1,1,1
 	
-	B074("TSDU011041 Admin klik show page 25"),//1
-	B075("TSDU011042 Admin klik page 1"),//1
-	B076("TSDU011043 Admin klik page 2"),//1
-	B077("TSDU011044 Admin klik page 3"),//1
-	B078("TSDU011045 Admin klik page 4"),//1
-	B079("TSDU011046 Admin klik icon <<"),//1
-	B080("TSDU011047 Admin klik icon >>"),//1
+	B074("TSDU011041 Admin klik show page 25 ACTIVE User"),//1
+	B075("TSDU011042 Admin klik page 1 ACTIVE User"),//1
+	B076("TSDU011043 Admin klik page 2 ACTIVE User"),//1
+	B077("TSDU011044 Admin klik page 3 ACTIVE User"),//1
+	B078("TSDU011045 Admin klik page 4 ACTIVE User"),//1
+	B079("TSDU011046 Admin klik icon << ACTIVE User"),//1
+	B080("TSDU011047 Admin klik icon >> ACTIVE User"),//1
 //	1,1,1,1,1,1,1
 	
-	B081("TSDU011048 Admin klik show page 50"),//1
-	B082("TSDU011049 Admin klik page 1"),//1
-	B083("TSDU011050 Admin klik page 2"),//1
-	B084("TSDU011051 Admin klik icon <<"),//1
-	B085("TSDU011052 Admin klik icon >>"),//1
+	B081("TSDU011048 Admin klik show page 50 ACTIVE User"),//1
+	B082("TSDU011049 Admin klik page 1 ACTIVE User"),//1
+	B083("TSDU011050 Admin klik page 2 ACTIVE User"),//1
+	B084("TSDU011051 Admin klik icon << ACTIVE User"),//1
+	B085("TSDU011052 Admin klik icon >> ACTIVE User"),//1
 //	1,1,1,1,1
 	
-	B086("TSDU011053 Admin klik show page 100"),//1
-	B087("TSDU011054 Admin klik page 1"),//1
+	B086("TSDU011053 Admin klik show page 100 ACTIVE User"),//1
+	B087("TSDU011054 Admin klik page 1 ACTIVE User"),//1
 //	1,1
+	
+	B088("TSDU012001 Admin export semua NON ACTIVE User"),//1
+	B089("TSDU012002 Admin export NON ACTIVE user berdasarkan name, email"),//2
+	B090("TSDU012003 Admin export semua ACTIVE User"),//1
+	B091("TSDU012002 Admin export ACTIVE user berdasarkan name, email"),//2
+//	1,2,1,2
 	
 	B097("TSRA001001 Admin membuka remove activity page"),//1
 //	1
