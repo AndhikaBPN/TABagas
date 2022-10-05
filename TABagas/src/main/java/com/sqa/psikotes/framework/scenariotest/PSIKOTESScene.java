@@ -152,22 +152,37 @@ public enum PSIKOTESScene {
 	B104("TSDUN004001 Admin klik tombol X di pop up View"),//1
 //	1,1,1
 	
-	B108("TSRP001001 Admin membuka halaman report"),//1
+	B105("TSDUN005001 Admin edit password user dengan field kosong"),//1
+	B106("TSDUN005002 Admin edit password user dengan value kurang dari 9 karakter"),//1
+	B107("TSDUN005003 Admin edit password user dengan field kosong"),//1
+	B108("TSDUN005004 Admin edit password user dengan value kurang dari 9 karakter"),//1
+//	1,1,1,1
+	
+	B109("TSRP001001 Admin membuka halaman report"),//1
 //	1
 	
-	B109("TSRP002001 Admin mencari data report"),//1
-	B110("TSRP002002 ADmin export report"),//1
+	B110("TSRP002001 Admin mencari data report"),//1
+	B111("TSRP002002 Admin export report"),//1
 //	1,1
 	
-	B112("TSRA001001 Admin membuka remove activity page"),//1
+	B112("TSRPN001 Search Report invalid"),//1
 //	1
 	
-	B113("TSRA002001 Admin mencari data berdasarkan NIK, Nama, Email, Telpon"),//4
+	B113("TSRA001001 Admin membuka remove activity page"),//1
+//	1
+	
+	B114("TSRA002001 Admin mencari data berdasarkan NIK, Nama, Email, Telpon"),//4
 //	4
 	
-	B114("TSRA003001 Admin klik icon delete"),//1
-	B115("TSRA003002 Admin delete data");//1
+	B115("TSRA003001 Admin klik icon delete"),//1
+	B116("TSRA003002 Admin delete data"),//1
 //	1,1
+	
+	B117("TSRAN001001 Admin mencari data berdasarkan Value kosong, kombinasi, nilai, tipe modul, dan nama modul"),//5
+//	5
+	
+	B118("TSRAN002001 Admin klik tombol X");//1
+//	1
 	
 	
 	private String testName;

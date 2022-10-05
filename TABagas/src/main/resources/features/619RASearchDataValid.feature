@@ -17,5 +17,5 @@ Feature: TSRA002 Admin mencari data remove activity
   | data |
   | 5851449312729320 |
   | Ahlan |
-  |rmacdaid6@sakura.net |
+  | cgreves4@google.com |
   | 0855771341820 |

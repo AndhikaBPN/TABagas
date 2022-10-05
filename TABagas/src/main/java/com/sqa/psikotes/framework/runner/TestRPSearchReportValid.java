@@ -55,6 +55,9 @@ public class TestRPSearchReportValid {
 	@When("TSRP002001 Admin set tanggal akhir")
 	public void tsrp002001_admin_set_tanggal_akhir() {
 	    reportPage.clickDateLast();
+	    for(int i=0 ; i<1; i++) {
+	    	reportPage.clickDateNext();
+	    }
 	    reportPage.clickTglLast();
 	    extentTest.log(LogStatus.PASS, "Admin set tanggal akhir");
 	}
@@ -67,7 +70,7 @@ public class TestRPSearchReportValid {
 
 	@Then("TSRP002001 List report tampil")
 	public void tsrp002001_list_report_tampil() {
-	    assertTrue(reportPage.getTxtTgl().contains("2022-07-21"));
+	    assertTrue(reportPage.getTxtEntries().contains("Showing"));
 	    extentTest.log(LogStatus.PASS, "List report tampil");
 	}
 	

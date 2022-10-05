@@ -48,6 +48,7 @@ public class TestDUEditPasswordUserValid {
 	@Then("TSDU010001 Muncul pop up form untuk edit password")
 	public void tsdu010001_muncul_pop_up_form_untuk_edit_password() {
 	    assertTrue(dataUsers.getTxtEditPw().contains("Password Baru"));
+	    extentTest.log(LogStatus.PASS, "Muncul pop up form untuk edit password");
 	}
 	
 //	TSDU010002

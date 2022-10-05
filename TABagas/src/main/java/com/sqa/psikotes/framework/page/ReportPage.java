@@ -39,10 +39,10 @@ public class ReportPage extends LoginPage{
 	@FindBy(xpath = "//span[@class='ui-icon ui-icon-circle-triangle-e']")
 	private WebElement btnDateNext;
 	
-	@FindBy(linkText = "1")
+	@FindBy(xpath = "//div[@id='ui-datepicker-div']/table/tbody/tr/td/a")
 	private WebElement btnTglFirst;
 	
-	@FindBy(linkText = "7")
+	@FindBy(xpath = "//div[@id='ui-datepicker-div']/table/tbody/tr/td[6]/a")
 	private WebElement btnTglLast;
 	
 //	Date
@@ -58,6 +58,9 @@ public class ReportPage extends LoginPage{
 	
 	@FindBy(xpath = "//td[@id='tl_report_setuju--51776-cell-0-4']")
 	private WebElement txtTgl;
+	
+	@FindBy(xpath = "//div[@id='tl_report_setuju--51776']/div[8]")
+	private WebElement txtEntries;
 	
 //	Click
 	public void clickMenuReport() {
@@ -123,5 +126,12 @@ public class ReportPage extends LoginPage{
 		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
 		System.out.println(txtTgl.getText());
 		return txtTgl.getText();
+	}
+	
+	public String getTxtEntries() {
+		Utils.driverWaitTxt(driver, Constants.TIMEOUT, txtEntries);
+		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
+		System.out.println(txtEntries.getText());
+		return txtEntries.getText();
 	}
 }

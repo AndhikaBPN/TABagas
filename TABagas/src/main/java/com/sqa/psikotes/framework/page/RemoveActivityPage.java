@@ -42,6 +42,9 @@ public class RemoveActivityPage extends LoginPage{
 	@FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='Close'])[2]/following::span[2]")
 	private WebElement btnOK;
 	
+	@FindBy(xpath = "//div[8]/div/button/span")
+	private WebElement btnSilang;
+	
 //	Input
 	@FindBy(xpath = "//input[@id='tl_remove_activity--53435_text']")
 	private WebElement insSearch;
@@ -64,6 +67,9 @@ public class RemoveActivityPage extends LoginPage{
 	
 	@FindBy(xpath = "//div[@id='nikita-form-dialog']/p")
 	private WebElement txtDihapus;
+	
+	@FindBy(xpath = "//div[@id='tl_remove_activity--53429']/div[8]")
+	private WebElement txtNoEntries;
 	
 //	Click
 	public void clickMenuReport() {
@@ -96,10 +102,22 @@ public class RemoveActivityPage extends LoginPage{
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 	}
 	
+	public void clickSilang() {
+		btnSilang.click();
+		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+	}
+	
 //	Input
 	public void inputSearch(String search) {
 		this.insSearch.sendKeys(search);
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+	}
+	
+	public void inputInvalidSearch(String search) {
+		if(!search.equals("")) {
+			this.insSearch.sendKeys(search);
+			Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+		}
 	}
 	
 //	Validation
@@ -143,5 +161,12 @@ public class RemoveActivityPage extends LoginPage{
 		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
 		System.out.println(txtDihapus.getText());
 		return txtDihapus.getText();
+	}
+	
+	public String getTxtEntries() {
+		Utils.driverWaitTxt(driver, Constants.TIMEOUT, txtNoEntries);
+		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
+		System.out.println(txtNoEntries.getText());
+		return txtNoEntries.getText();
 	}
 }
