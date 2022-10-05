@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="112" passed="112" failed="0" skipped="0">
+<testng-results ignored="0" total="128" passed="128" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-04T14:41:19 WIB" name="Default suite" finished-at="2022-10-04T14:58:39 WIB" duration-ms="1039684">
+  <suite started-at="2022-10-05T14:14:11 WIB" name="Default suite" finished-at="2022-10-05T14:35:35 WIB" duration-ms="1283956">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-10-04T14:41:19 WIB" name="Default test" finished-at="2022-10-04T14:58:39 WIB" duration-ms="1039684">
+    <test started-at="2022-10-05T14:14:11 WIB" name="Default test" finished-at="2022-10-05T14:35:35 WIB" duration-ms="1283956">
       <class name="com.sqa.psikotes.framework.runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:41:19 WIB" name="setUpClass" finished-at="2022-10-04T14:41:20 WIB" duration-ms="736" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:14:11 WIB" name="setUpClass" finished-at="2022-10-05T14:14:12 WIB" duration-ms="719" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29f32a41]]>
+                <![CDATA[org.testng.TestRunner@786332de]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:41:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:41:32 WIB" duration-ms="12233" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:14:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:14:25 WIB" duration-ms="12469" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:41:32 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:41:43 WIB" duration-ms="10804" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:14:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:14:35 WIB" duration-ms="10814" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:41:43 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:41:54 WIB" duration-ms="10827" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:14:35 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:14:46 WIB" duration-ms="10939" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:41:54 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:42:05 WIB" duration-ms="10843" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:14:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:14:57 WIB" duration-ms="10890" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:42:05 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:42:15 WIB" duration-ms="10805" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:14:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:15:08 WIB" duration-ms="10876" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:42:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:42:26 WIB" duration-ms="10816" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:15:08 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:15:19 WIB" duration-ms="10828" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:42:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:42:37 WIB" duration-ms="10836" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:15:19 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:15:30 WIB" duration-ms="10878" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:42:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:42:46 WIB" duration-ms="8778" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:15:30 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:15:39 WIB" duration-ms="8820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,7 +149,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:42:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:42:55 WIB" duration-ms="8751" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:15:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:15:47 WIB" duration-ms="8802" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:42:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:43:03 WIB" duration-ms="8737" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:15:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:15:56 WIB" duration-ms="8739" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:43:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:43:12 WIB" duration-ms="8726" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:15:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:16:05 WIB" duration-ms="8779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -197,7 +197,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:43:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:43:25 WIB" duration-ms="12878" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:16:05 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:16:20 WIB" duration-ms="14536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,7 +213,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:43:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:43:38 WIB" duration-ms="13024" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:16:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:16:32 WIB" duration-ms="12958" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,7 +229,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:43:38 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:43:51 WIB" duration-ms="12825" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:16:32 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:16:45 WIB" duration-ms="12951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,7 +245,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:43:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:44:04 WIB" duration-ms="12986" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:16:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:16:58 WIB" duration-ms="13002" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,7 +261,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:44:04 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:44:14 WIB" duration-ms="10725" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:16:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:17:09 WIB" duration-ms="10926" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,7 +277,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:44:14 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:44:25 WIB" duration-ms="10768" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:17:09 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:17:20 WIB" duration-ms="10922" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -293,7 +293,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:44:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:44:34 WIB" duration-ms="8742" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:17:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:17:29 WIB" duration-ms="8798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,7 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:44:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:44:47 WIB" duration-ms="12882" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:17:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:17:42 WIB" duration-ms="12916" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,7 +325,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:44:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:45:00 WIB" duration-ms="12887" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:17:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:17:55 WIB" duration-ms="12872" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -341,7 +341,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:45:00 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:45:13 WIB" duration-ms="12958" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:17:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:18:08 WIB" duration-ms="12913" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -357,7 +357,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:45:13 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:45:26 WIB" duration-ms="12882" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:18:08 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:18:21 WIB" duration-ms="12866" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -373,7 +373,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:45:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:45:38 WIB" duration-ms="12885" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:18:21 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:18:34 WIB" duration-ms="12833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -389,7 +389,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:45:38 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:45:51 WIB" duration-ms="12887" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:18:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:18:46 WIB" duration-ms="12841" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -405,7 +405,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:45:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:46:02 WIB" duration-ms="10835" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:18:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:18:57 WIB" duration-ms="10714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -421,7 +421,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:46:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:46:15 WIB" duration-ms="12947" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:18:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:19:10 WIB" duration-ms="12825" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -437,7 +437,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:46:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:46:32 WIB" duration-ms="17103" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:19:10 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:19:27 WIB" duration-ms="17042" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -453,7 +453,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:46:32 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:47:02 WIB" duration-ms="29724" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:19:27 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:19:57 WIB" duration-ms="29642" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -469,7 +469,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:47:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:47:20 WIB" duration-ms="18344" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:19:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:20:18 WIB" duration-ms="20944" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -485,7 +485,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:47:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:47:38 WIB" duration-ms="18144" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:20:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:20:37 WIB" duration-ms="19122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -501,7 +501,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:47:38 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:47:57 WIB" duration-ms="18125" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:20:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:20:56 WIB" duration-ms="19148" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -517,7 +517,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:47:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:48:15 WIB" duration-ms="18096" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:20:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:21:15 WIB" duration-ms="19253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -533,7 +533,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:48:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:48:34 WIB" duration-ms="19190" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:21:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:21:35 WIB" duration-ms="19765" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -549,7 +549,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:48:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:48:53 WIB" duration-ms="19237" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:21:35 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:21:54 WIB" duration-ms="19402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -565,7 +565,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:48:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:49:10 WIB" duration-ms="17104" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:21:54 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:22:11 WIB" duration-ms="17125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -581,7 +581,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:49:10 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:49:40 WIB" duration-ms="29674" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:22:11 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:22:42 WIB" duration-ms="30490" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -597,7 +597,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:49:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:49:58 WIB" duration-ms="18222" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:22:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:23:00 WIB" duration-ms="18184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -613,7 +613,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:49:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:50:16 WIB" duration-ms="18159" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:23:00 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:23:18 WIB" duration-ms="18216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -629,7 +629,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:50:16 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:50:34 WIB" duration-ms="18116" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:23:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:23:37 WIB" duration-ms="18529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -645,7 +645,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:50:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:50:53 WIB" duration-ms="18181" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:23:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:23:55 WIB" duration-ms="18231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -661,7 +661,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:50:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:51:12 WIB" duration-ms="19227" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:23:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:24:14 WIB" duration-ms="19227" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -677,7 +677,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:51:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:51:31 WIB" duration-ms="19188" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:24:14 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:24:36 WIB" duration-ms="21645" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -693,7 +693,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:51:31 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:51:40 WIB" duration-ms="8690" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:24:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:24:45 WIB" duration-ms="8654" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -709,7 +709,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:51:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:51:56 WIB" duration-ms="15996" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:24:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:01 WIB" duration-ms="16048" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -725,7 +725,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:51:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:12 WIB" duration-ms="16274" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:17 WIB" duration-ms="16043" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -741,7 +741,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:21 WIB" duration-ms="8754" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:25 WIB" duration-ms="8802" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -757,7 +757,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:21 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:26 WIB" duration-ms="5385" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:31 WIB" duration-ms="5393" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -773,7 +773,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:29 WIB" duration-ms="3215" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:31 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:34 WIB" duration-ms="3228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -789,7 +789,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:33 WIB" duration-ms="3190" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:37 WIB" duration-ms="3216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -805,7 +805,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:36 WIB" duration-ms="3207" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:40 WIB" duration-ms="3211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -821,7 +821,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:39 WIB" duration-ms="3201" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:44 WIB" duration-ms="3213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -837,7 +837,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:42 WIB" duration-ms="3211" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:44 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:47 WIB" duration-ms="3215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -853,7 +853,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:45 WIB" duration-ms="3191" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:50 WIB" duration-ms="3212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -869,7 +869,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:49 WIB" duration-ms="3196" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:53 WIB" duration-ms="3236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -885,7 +885,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:52 WIB" duration-ms="3218" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:25:57 WIB" duration-ms="3205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -901,7 +901,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:52 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:55 WIB" duration-ms="3206" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:25:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:00 WIB" duration-ms="3216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -917,7 +917,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:52:58 WIB" duration-ms="3197" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:00 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:03 WIB" duration-ms="3230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -933,7 +933,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:52:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:01 WIB" duration-ms="3231" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:06 WIB" duration-ms="3224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -949,7 +949,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:10 WIB" duration-ms="8872" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:06 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:15 WIB" duration-ms="8849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -965,7 +965,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:10 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:16 WIB" duration-ms="5371" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:20 WIB" duration-ms="5376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -981,7 +981,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:16 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:19 WIB" duration-ms="3209" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:24 WIB" duration-ms="3181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -997,7 +997,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:19 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:22 WIB" duration-ms="3191" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:27 WIB" duration-ms="3215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1013,7 +1013,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:22 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:25 WIB" duration-ms="3208" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:27 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:30 WIB" duration-ms="3215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1029,7 +1029,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:28 WIB" duration-ms="3218" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:30 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:33 WIB" duration-ms="3217" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1045,7 +1045,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:28 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:32 WIB" duration-ms="3235" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:37 WIB" duration-ms="3218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1061,7 +1061,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:32 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:40 WIB" duration-ms="8771" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:45 WIB" duration-ms="8933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1077,7 +1077,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:46 WIB" duration-ms="5390" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:51 WIB" duration-ms="5392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1093,7 +1093,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:49 WIB" duration-ms="3211" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:54 WIB" duration-ms="3226" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1109,7 +1109,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:52 WIB" duration-ms="3203" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:54 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:26:57 WIB" duration-ms="3208" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1125,7 +1125,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:52 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:53:55 WIB" duration-ms="3207" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:26:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:01 WIB" duration-ms="3227" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1141,7 +1141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:53:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:04 WIB" duration-ms="8759" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:09 WIB" duration-ms="8769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1157,7 +1157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:04 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:10 WIB" duration-ms="5346" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:09 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:15 WIB" duration-ms="5368" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1173,7 +1173,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:10 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:20 WIB" duration-ms="10854" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:26 WIB" duration-ms="10926" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1189,7 +1189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:26 WIB" duration-ms="5345" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:31 WIB" duration-ms="5383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1205,7 +1205,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:29 WIB" duration-ms="3187" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:31 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:34 WIB" duration-ms="3233" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1221,7 +1221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:32 WIB" duration-ms="3198" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:37 WIB" duration-ms="3221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1237,7 +1237,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:32 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:35 WIB" duration-ms="3227" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:41 WIB" duration-ms="3220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1253,7 +1253,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:35 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:39 WIB" duration-ms="3207" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:41 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:44 WIB" duration-ms="3229" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1269,7 +1269,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:42 WIB" duration-ms="3188" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:44 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:47 WIB" duration-ms="3212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1285,7 +1285,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:45 WIB" duration-ms="3206" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:50 WIB" duration-ms="3223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1301,7 +1301,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:48 WIB" duration-ms="3206" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:54 WIB" duration-ms="3209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1317,7 +1317,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:48 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:51 WIB" duration-ms="3213" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:54 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:27:57 WIB" duration-ms="3224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1333,7 +1333,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:55 WIB" duration-ms="3220" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:27:57 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:00 WIB" duration-ms="3227" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1349,7 +1349,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:54:58 WIB" duration-ms="3209" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:00 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:03 WIB" duration-ms="3173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1365,7 +1365,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:54:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:01 WIB" duration-ms="3189" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:06 WIB" duration-ms="3202" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1381,7 +1381,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:12 WIB" duration-ms="10986" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:06 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:18 WIB" duration-ms="11155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1397,7 +1397,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:17 WIB" duration-ms="5406" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:18 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:23 WIB" duration-ms="5407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1413,7 +1413,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:21 WIB" duration-ms="3205" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:23 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:26 WIB" duration-ms="3210" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1429,7 +1429,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:21 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:24 WIB" duration-ms="3204" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:29 WIB" duration-ms="3214" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1445,7 +1445,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:27 WIB" duration-ms="3200" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:33 WIB" duration-ms="3220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1461,7 +1461,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:27 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:30 WIB" duration-ms="3208" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:36 WIB" duration-ms="3218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1477,7 +1477,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:30 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:33 WIB" duration-ms="3200" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:39 WIB" duration-ms="3243" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1493,7 +1493,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:44 WIB" duration-ms="10909" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:39 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:50 WIB" duration-ms="11027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1509,7 +1509,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:44 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:50 WIB" duration-ms="5371" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:55 WIB" duration-ms="5404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1525,7 +1525,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:53 WIB" duration-ms="3206" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:28:59 WIB" duration-ms="3211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1541,7 +1541,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:56 WIB" duration-ms="3199" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:28:59 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:29:02 WIB" duration-ms="3210" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1557,7 +1557,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:55:59 WIB" duration-ms="3195" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:29:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:29:05 WIB" duration-ms="3223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1573,7 +1573,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:55:59 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:56:10 WIB" duration-ms="10916" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:29:05 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:29:16 WIB" duration-ms="10925" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1589,7 +1589,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:56:10 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:56:16 WIB" duration-ms="5343" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:29:16 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:29:21 WIB" duration-ms="5390" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1605,7 +1605,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:56:16 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:56:26 WIB" duration-ms="10760" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:29:21 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:29:32 WIB" duration-ms="10746" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1621,7 +1621,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:56:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:56:41 WIB" duration-ms="14984" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:29:32 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:29:47 WIB" duration-ms="14935" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1637,7 +1637,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:56:41 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:56:56 WIB" duration-ms="14968" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:29:47 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:30:02 WIB" duration-ms="14967" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1653,7 +1653,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:56:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:57:07 WIB" duration-ms="10769" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:30:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:30:14 WIB" duration-ms="11469" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1669,7 +1669,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:57:07 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:57:22 WIB" duration-ms="15042" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:30:14 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:30:28 WIB" duration-ms="14906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1685,7 +1685,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:57:22 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:57:37 WIB" duration-ms="15016" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:30:28 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:30:43 WIB" duration-ms="14908" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1701,7 +1701,263 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:57:37 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:57:44 WIB" duration-ms="6667" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:30:43 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:30:56 WIB" duration-ms="13081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN001001 Admin search field kosong pada status NON ACTIVE"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN001 Admin search data invalid"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:30:56 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:31:07 WIB" duration-ms="10862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN001002 Admin search field kosong pada status NON ACTIVE"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN001 Admin search data invalid"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:31:07 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:31:20 WIB" duration-ms="12950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN001003 Admin search field kosong pada status ACTIVE"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN001 Admin search data invalid"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:31:20 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:31:31 WIB" duration-ms="10842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN001004 Admin search field kosong pada status ACTIVE"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN001 Admin search data invalid"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:31:31 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:31:42 WIB" duration-ms="10873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN002001 Admin klik icon panah di sebelah kanan status Admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN002 Btn Down Status User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:31:42 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:31:53 WIB" duration-ms="10858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN002002 Admin klik icon panah di sebelah kanan status Admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN002 Btn Down Status User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:31:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:32:04 WIB" duration-ms="10877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN002003 Admin klik icon panah di sebelah kanan status Admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN002 Btn Down Status User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:32:04 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:32:15 WIB" duration-ms="10913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN002004 Admin klik icon panah di sebelah kanan status Admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN002 Btn Down Status User"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:32:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:32:50 WIB" duration-ms="35089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN003001 Admin edit status dengan value (pilih)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN003 Edit status user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:32:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:33:25 WIB" duration-ms="35235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN003002 Admin edit status dengan value (pilih)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN003 Edit status user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:33:25 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:33:35 WIB" duration-ms="9840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN004001 Admin klik tombol X di pop up View"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN004 Tombol X"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:33:35 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:33:45 WIB" duration-ms="9747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN004002 Admin klik tombol X di pop up Edit user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN004 Tombol X"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:33:45 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:33:54 WIB" duration-ms="9788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSDUN004003 Admin klik tombol X di pop up Edit password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSDUN004 Tombol X"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:33:54 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:34:01 WIB" duration-ms="6675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSRP001001 Admin ingin membuka halaman report"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSRP001 Membuka halaman Data Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:34:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:34:16 WIB" duration-ms="15203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSRP002001 Admin mencari data berdasarkan range tanggal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSRP002 Membuka halaman Data Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:34:16 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:34:33 WIB" duration-ms="17191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TSRP002002 Admin mencari data berdasarkan range tanggal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TSRP002 Membuka halaman Data Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:34:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:34:40 WIB" duration-ms="6625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1717,7 +1973,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:57:44 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:57:53 WIB" duration-ms="8816" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:34:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:34:49 WIB" duration-ms="8764" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1733,7 +1989,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:57:53 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:58:01 WIB" duration-ms="8689" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:34:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:34:58 WIB" duration-ms="8780" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1749,7 +2005,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:58:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:58:10 WIB" duration-ms="8740" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:34:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:35:06 WIB" duration-ms="8744" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1765,7 +2021,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:58:10 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:58:19 WIB" duration-ms="8708" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:35:06 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:35:15 WIB" duration-ms="8766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1781,7 +2037,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:58:19 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:58:28 WIB" duration-ms="8701" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:35:15 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:35:24 WIB" duration-ms="8928" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1797,7 +2053,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:58:28 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-04T14:58:38 WIB" duration-ms="10874" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:35:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-05T14:35:35 WIB" duration-ms="10866" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1813,7 +2069,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-04T14:58:38 WIB" name="tearDownClass" finished-at="2022-10-04T14:58:39 WIB" duration-ms="374" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.sqa.psikotes.framework.runner.TestRunner@196a42c3]" started-at="2022-10-05T14:35:35 WIB" name="tearDownClass" finished-at="2022-10-05T14:35:35 WIB" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

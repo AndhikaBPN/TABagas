@@ -41,6 +41,9 @@ public class DataUsersPage extends LoginPage{
 	@FindBy(xpath = "//span[normalize-space()='Search']")
 	private WebElement btnSearch;
 	
+	@FindBy(xpath = "//img[@id='tl_data_users--53411_finder']")
+	private WebElement btnFinder;
+	
 	@FindBy(xpath = "//img[@id='tl_data_users--53078_finder']")
 	private WebElement btnGreen;
 	
@@ -89,6 +92,9 @@ public class DataUsersPage extends LoginPage{
 	@FindBy(linkText = ">>")
 	private WebElement btnLast;
 	
+	@FindBy(xpath = "//div[9]/div/div/button/span")
+	private WebElement btnSilang;
+	
 //	Dropdown
 	@FindBy(xpath = "//select[@id='tl_data_users--53411_text']")
 	private WebElement dropStatus;
@@ -108,6 +114,9 @@ public class DataUsersPage extends LoginPage{
 	
 	@FindBy(xpath = "//option[@value='ACTIVE']")
 	private WebElement selectActive;
+	
+	@FindBy(xpath = "//option[@value='']")
+	private WebElement selectPilih;
 	
 	@FindBy(xpath = "//select[@id='tl_view_user--53301_text']/option[2]")
 	private WebElement selectEditActive;
@@ -168,6 +177,9 @@ public class DataUsersPage extends LoginPage{
 	@FindBy(xpath = "//table[@id='tl_data_users--53082_table']/tbody/tr[10]/td/table/tbody/tr/td")
 	private WebElement txtDataLast;
 	
+	@FindBy(xpath = "//div[@id='tl_data_users--53082']/div[8]")
+	private WebElement txtEntries;
+	
 	
 //	Click
 	public void clickTask() {
@@ -192,6 +204,11 @@ public class DataUsersPage extends LoginPage{
 	
 	public void clickNon() {
 		selectNon.click();
+		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+	}
+	
+	public void clickFinder() {
+		btnFinder.click();
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 	}
 	
@@ -265,8 +282,18 @@ public class DataUsersPage extends LoginPage{
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 	}
 	
+	public void clickSilang() {
+		btnSilang.click();
+		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+	}
+	
 	public void clickDropEditStatus() {
 		dropEditStatus.click();
+		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+	}
+	
+	public void clickEditPilih() {
+		selectPilih.click();
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 	}
 	
@@ -362,6 +389,13 @@ public class DataUsersPage extends LoginPage{
 		dropPage.click();
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 		new Select(dropPage).selectByVisibleText("100");
+		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
+	}
+	
+//	Clear
+	public void clearSearch() {
+		insSearch.click();
+		insSearch.clear();
 		Utils.delay(1, Constants.GLOB_PARAM_DELAY);
 	}
 	
@@ -500,5 +534,24 @@ public class DataUsersPage extends LoginPage{
 		}else {
 			return isExist;
 		}
+	}
+	
+	public boolean getFirstNumberData() {
+		boolean isAbove = false;
+		Utils.driverWaitTxt(driver, Constants.TIMEOUT, txtDataFirst);
+		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
+		int intData = Integer.parseInt(txtDataFirst.getText());
+		if(intData>=1) {
+			return isAbove = true;
+		} else {
+			return isAbove;
+		}
+	}
+	
+	public String getTxtEntries() {
+		Utils.driverWaitTxt(driver, Constants.TIMEOUT, txtEntries);
+		Utils.delay(2, Constants.GLOB_PARAM_DELAY);
+		System.out.println(txtEntries.getText());
+		return txtEntries.getText();
 	}
 }
