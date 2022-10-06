@@ -148,8 +148,8 @@ public enum PSIKOTESScene {
 //	1,1
 	
 	B102("TSDUN004001 Admin klik tombol X di pop up View"),//1
-	B103("TSDUN004001 Admin klik tombol X di pop up View"),//1
-	B104("TSDUN004001 Admin klik tombol X di pop up View"),//1
+	B103("TSDUN004002 Admin klik tombol X di pop up Edit user"),//1
+	B104("TSDUN004003 Admin klik tombol X di pop up Edit Password"),//1
 //	1,1,1
 	
 	B105("TSDUN005001 Admin edit password user dengan field kosong"),//1
