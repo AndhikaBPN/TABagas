@@ -93,7 +93,7 @@ public class TestDUEditPasswordUserInvalid {
 			dataUsers.clickDrop();
 			dataUsers.clickNon();
 			dataUsers.clickEditPw();
-			extentTest.log(LogStatus.PASS, "Admin sudah membuka pop up Edit password di halaman Data Users NON ACTIVE");
+			extentTest.log(LogStatus.PASS, "Admin sudah membuka pop up Edit password di halaman Data Users ACTIVE");
 		}
 
 		@When("TSDUN005003 Admin klik SAVE")
@@ -118,7 +118,7 @@ public class TestDUEditPasswordUserInvalid {
 			dataUsers.clickDrop();
 			dataUsers.clickNon();
 			dataUsers.clickEditPw();
-			extentTest.log(LogStatus.PASS, "Admin sudah membuka pop up Edit password di halaman Data Users NON ACTIVE");
+			extentTest.log(LogStatus.PASS, "Admin sudah membuka pop up Edit password di halaman Data Users ACTIVE");
 		}
 
 		@When("TSDUN005004 Admin isi field Password baru dengan karakter kurang dari karakter9")

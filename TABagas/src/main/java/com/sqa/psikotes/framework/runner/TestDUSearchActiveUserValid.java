@@ -85,7 +85,7 @@ public class TestDUSearchActiveUserValid {
 	@When("TSDU006002 Admin klik tombol berwarna hijau")
 	public void tsdu006002_admin_klik_tombol_berwarna_hijau() {
 		dataUsers.clickSearch();
-	    extentTest.log(LogStatus.PASS, "Admin klik tombol search");
+	    extentTest.log(LogStatus.PASS, "Admin klik tombol berwarna hijau");
 	}
 
 	@Then("^TSDU006002 Tampil hasil filter ACTIVE User berdasarkan (.*)$")
@@ -112,10 +112,10 @@ public class TestDUSearchActiveUserValid {
 	    extentTest.log(LogStatus.PASS, "Admin mengisi data yang ingin dicari");
 	}
 
-	@When("TSDU006003 Admin klik tombol berwarna hijau")
+	@When("TSDU006003 Admin klik enter pada keyboard")
 	public void tsdu006003_admin_klik_tombol_berwarna_hijau() {
 		dataUsers.clickSearch();
-	    extentTest.log(LogStatus.PASS, "Admin klik tombol search");
+	    extentTest.log(LogStatus.PASS, "Admin klik enter pada keyboard");
 	}
 
 	@Then("^TSDU006003 Tampil hasil filter ACTIVE User berdasarkan (.*)$")

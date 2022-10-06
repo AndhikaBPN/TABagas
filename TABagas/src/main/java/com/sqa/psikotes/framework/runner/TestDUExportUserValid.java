@@ -56,7 +56,7 @@ public class TestDUExportUserValid {
 		String pathSatu = "C:\\Users\\" + Constants.PC_USER_NAME + "\\Downloads\\exportdatausers.xls";
 		String pathDua = "C:\\Users\\" + Constants.PC_USER_NAME + "\\Downloads\\exportdatausers (1).xls";
 		assertTrue(Utils.getFileSize(pathSatu) == Utils.getFileSize(pathDua));
-		extentTest.log(LogStatus.PASS, "Siloam035 Validasi Sukses Export");
+		extentTest.log(LogStatus.PASS, "Membandingkan file size");
 	}
 	
 //	TSDU012002
@@ -91,7 +91,7 @@ public class TestDUExportUserValid {
 		String pathSatu = "C:\\Users\\" + Constants.PC_USER_NAME + "\\Downloads\\exportdatausers.xls";
 		String pathDua = "C:\\Users\\" + Constants.PC_USER_NAME + "\\Downloads\\exportdatausers (1).xls";
 		assertTrue(Utils.getFileSize(pathSatu) == Utils.getFileSize(pathDua));
-		extentTest.log(LogStatus.PASS, "Siloam035 Validasi Sukses Export");
+		extentTest.log(LogStatus.PASS, "Membandingkan file size");
 	}
 	
 //	TSDU012003
@@ -108,7 +108,7 @@ public class TestDUExportUserValid {
 		String pathSatu = "C:\\Users\\" + Constants.PC_USER_NAME + "\\Downloads\\exportdatausers.xls";
 		String pathDua = "C:\\Users\\" + Constants.PC_USER_NAME + "\\Downloads\\exportdatausers (1).xls";
 		assertTrue(Utils.getFileSize(pathSatu) == Utils.getFileSize(pathDua));
-		extentTest.log(LogStatus.PASS, "Siloam035 Validasi Sukses Export");
+		extentTest.log(LogStatus.PASS, "Membandingkan file size");
 	}
 	
 //	TSDU012004
@@ -143,6 +143,6 @@ public class TestDUExportUserValid {
 		String pathSatu = "C:\\Users\\" + Constants.PC_USER_NAME + "\\Downloads\\exportdatausers.xls";
 		String pathDua = "C:\\Users\\" + Constants.PC_USER_NAME + "\\Downloads\\exportdatausers (1).xls";
 		assertTrue(Utils.getFileSize(pathSatu) == Utils.getFileSize(pathDua));
-		extentTest.log(LogStatus.PASS, "Siloam035 Validasi Sukses Export");
+		extentTest.log(LogStatus.PASS, "Membandingkan file size");
 	}
 }

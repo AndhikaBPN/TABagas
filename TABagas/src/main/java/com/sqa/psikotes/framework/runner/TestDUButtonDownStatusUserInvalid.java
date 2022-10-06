@@ -72,7 +72,7 @@ public class TestDUButtonDownStatusUserInvalid {
 	@Then("TSDUN002002 Menampilkan data NON ACTIVE yang dicari")
 	public void tsdun002002_menampilkan_data_non_active_yang_dicari() {
 	    assertTrue(dataUsers.getTxtNameUser().contains("buhi"));
-	    extentTest.log(LogStatus.PASS, "Admin klik icon panah di sebelah kanan Status Admin NON ACTIVE");
+	    extentTest.log(LogStatus.PASS, "Menampilkan data NON ACTIVE yang dicari");
 	}
 
 //	TSDUN002003
@@ -108,6 +108,6 @@ public class TestDUButtonDownStatusUserInvalid {
 	@Then("TSDUN002004 Menampilkan data ACTIVE yang dicari")
 	public void tsdun002004_menampilkan_data_non_active_yang_dicari() {
 		assertTrue(dataUsers.getTxtNameUser().contains("kenshin"));
-	    extentTest.log(LogStatus.PASS, "Admin klik icon panah di sebelah kanan Status Admin ACTIVE");
+	    extentTest.log(LogStatus.PASS, "Menampilkan data ACTIVE yang dicari");
 	}
 }
