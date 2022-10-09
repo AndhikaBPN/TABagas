@@ -27,39 +27,48 @@ public class ReportPage extends LoginPage{
 	@FindBy(xpath = "//button[@id='52828_query']/span")
 	private WebElement btnReport;
 	
-	@FindBy(xpath = "//button[@id='51778_query']/span")
+//	@FindBy(xpath = "//button[@id='51778_query']/span")
+	@FindBy(xpath = "//button[@id='53459_query']/span")
 	private WebElement btnView;
 	
-	@FindBy(xpath = "//button[@id='51797_query']/span")
+//	@FindBy(xpath = "//button[@id='51797_query']/span")
+	@FindBy(xpath = "//button[@id='53462_query']/span")
 	private WebElement btnExport;
 	
-	@FindBy(xpath = "//span[@class='ui-icon ui-icon-circle-triangle-w']")
+//	@FindBy(xpath = "//span[@class='ui-icon ui-icon-circle-triangle-w']")
+	@FindBy(xpath = "//div[@id='ui-datepicker-div']/div/a/span")
 	private WebElement btnDatePrev;
 	
-	@FindBy(xpath = "//span[@class='ui-icon ui-icon-circle-triangle-e']")
+//	@FindBy(xpath = "//span[@class='ui-icon ui-icon-circle-triangle-e']")
+	@FindBy(xpath = "//div[@id='ui-datepicker-div']/div/a[2]/span")
 	private WebElement btnDateNext;
 	
-	@FindBy(xpath = "//div[@id='ui-datepicker-div']/table/tbody/tr/td/a")
+//	@FindBy(xpath = "//div[@id='ui-datepicker-div']/table/tbody/tr/td/a")
+	@FindBy(linkText = "1")
 	private WebElement btnTglFirst;
 	
 	@FindBy(xpath = "//div[@id='ui-datepicker-div']/table/tbody/tr/td[6]/a")
 	private WebElement btnTglLast;
 	
 //	Date
-	@FindBy(xpath = "//input[@id='tl_report_setuju--51772_text']")
+//	@FindBy(xpath = "//input[@id='tl_report_setuju--51772_text']")
+	@FindBy(id = "tl_report_setuju--53453_text")
 	private WebElement dateFirst;
 	
-	@FindBy(xpath = "//input[@id='tl_report_setuju--51780_text']")
+//	@FindBy(xpath = "//input[@id='tl_report_setuju--51780_text']")
+	@FindBy(id = "tl_report_setuju--53460_text")
 	private WebElement dateLast;
 	
 //	Validation
-	@FindBy(xpath = "//input[@id='tl_report_setuju--51773_text']")
+//	@FindBy(xpath = "//input[@id='tl_report_setuju--51773_text']")
+	@FindBy(xpath = "//input[@id='tl_report_setuju--53454_text']")
 	private WebElement txtReport;
 	
 	@FindBy(xpath = "//td[@id='tl_report_setuju--51776-cell-0-4']")
 	private WebElement txtTgl;
 	
-	@FindBy(xpath = "//div[@id='tl_report_setuju--51776']/div[8]")
+//	@FindBy(xpath = "//div[@id='tl_report_setuju--51776']/div[8]")
+	@FindBy(xpath = "//div[@id='tl_report_setuju--53457']/div[8]")
 	private WebElement txtEntries;
 	
 //	Click

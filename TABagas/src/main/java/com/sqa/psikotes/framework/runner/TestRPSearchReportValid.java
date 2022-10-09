@@ -58,7 +58,7 @@ public class TestRPSearchReportValid {
 	    for(int i=0 ; i<1; i++) {
 	    	reportPage.clickDateNext();
 	    }
-	    reportPage.clickTglLast();
+	    reportPage.clickTglFirst();
 	    extentTest.log(LogStatus.PASS, "Admin set tanggal akhir");
 	}
 
@@ -88,7 +88,10 @@ public class TestRPSearchReportValid {
 	@When("TSRP002002 Admin set tanggal akhir")
 	public void tsrp002002_admin_set_tanggal_akhir() {
 		reportPage.clickDateLast();
-	    reportPage.clickTglLast();
+	    for(int i=0 ; i<1; i++) {
+	    	reportPage.clickDateNext();
+	    }
+	    reportPage.clickTglFirst();
 	    extentTest.log(LogStatus.PASS, "Admin set tanggal akhir");
 	}
 

@@ -29,7 +29,7 @@ public class TestDUSearchActiveUserValid {
 	}
 	
 	@Given("TSDU006 Admin harus sudah membuka halaman Data Users ACTIVE")
-	public void tsdu005_admin_harus_membuka_halaman_data_users() {
+	public void tsdu006_admin_harus_membuka_halaman_data_users() {
 		driver.get(Constants.URL);
 		dataUsers.clickOk();
 		dataUsers.clickTask();
@@ -113,7 +113,7 @@ public class TestDUSearchActiveUserValid {
 	}
 
 	@When("TSDU006003 Admin klik enter pada keyboard")
-	public void tsdu006003_admin_klik_tombol_berwarna_hijau() {
+	public void tsdu006003_admin_klik_enter_pada_keyboard() {
 		dataUsers.clickSearch();
 	    extentTest.log(LogStatus.PASS, "Admin klik enter pada keyboard");
 	}

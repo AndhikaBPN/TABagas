@@ -66,6 +66,6 @@ public class TestRPSearchReportInvalid {
 	@Then("TSRPN001001 Tidak ada data yang tampil")
 	public void tsrpn001001_tidak_ada_data_yang_tampil() {
 		assertTrue(reportPage.getTxtEntries().contains("no entries"));
-	    extentTest.log(LogStatus.PASS, "List report tampil");
+	    extentTest.log(LogStatus.PASS, "Tidak ada data yang tampil");
 	}
 }
